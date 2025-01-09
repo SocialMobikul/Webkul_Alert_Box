@@ -68,6 +68,11 @@ MobikulAlertBox(
 
 ```
 
+## Output
+
+Here is a screenshot of the Webkul Alert Box in action:
+
+![Webkul Alert Box](https://github.com/SocialMobikul/Webkul_Alert_Box/blob/main/Screenshot%202025-01-09%20at%2019.18.25.jpeg)
 
 
 

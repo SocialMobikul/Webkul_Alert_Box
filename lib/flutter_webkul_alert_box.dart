@@ -41,7 +41,7 @@ Tween<Offset> createAnimationOffset(AnimationType type) {
 }
 
 /// Show MobikulAlertBox with animation or no animation
-void MobikulAlertBox(
+void mobikulAlertBox(
     BuildContext context, {
       AnimationType animation = AnimationType.none,
       String? title,
