@@ -16,7 +16,7 @@ To use the package in your Flutter project, add the following dependency in your
 dependencies:
   flutter:
     sdk: flutter
-  flutter_webkul_alert_box: ^0.0.5  # Replace with the latest version
+  flutter_webkul_alert_box: ^0.0.6  # Replace with the latest version
 ```
 
 ## Usages
