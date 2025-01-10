@@ -72,7 +72,7 @@ MobikulAlertBox(
 
 Here is a screenshot of the Webkul Alert Box in action:
 
-![Webkul Alert Box](https://github.com/SocialMobikul/Webkul_Alert_Box/blob/main/webkul_alert_box.png)
+![Webkul Alert Box](webkul_alert_box.png)
 
 
 
