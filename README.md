@@ -16,7 +16,7 @@ To use the package in your Flutter project, add the following dependency in your
 dependencies:
   flutter:
     sdk: flutter
-  flutter_webkul_alert_box: ^0.0.4  # Replace with the latest version
+  flutter_webkul_alert_box: ^0.0.5  # Replace with the latest version
 ```
 
 ## Usages
@@ -72,7 +72,7 @@ MobikulAlertBox(
 
 Here is a screenshot of the Webkul Alert Box in action:
 
-![Webkul Alert Box](https://github.com/SocialMobikul/Webkul_Alert_Box/blob/main/webkul_alert_box.jpeg)
+![Webkul Alert Box](https://github.com/SocialMobikul/Webkul_Alert_Box/blob/main/webkul_alert_box.png)
 
 
 
