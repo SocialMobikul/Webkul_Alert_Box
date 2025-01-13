@@ -1,6 +1,6 @@
 name: flutter_webkul_alert_box
-description: "Webkul Alert Box Package"
-version: 0.0.7
+description: "A customizable alert box package for Flutter with animated transitions, supporting various animation styles and flexible UI options."
+version: 0.0.8
 homepage: https://github.com/SocialMobikul/Webkul_Alert_Box.git
 
 environment:

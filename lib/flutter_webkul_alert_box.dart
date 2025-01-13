@@ -42,15 +42,15 @@ Tween<Offset> createAnimationOffset(AnimationType type) {
 
 /// Show MobikulAlertBox with animation or no animation
 void mobikulAlertBox(
-    BuildContext context, {
-      AnimationType animation = AnimationType.none,
-      String? title,
-      Widget? icon,
-      String? content,
-      List<Widget> actions = const <Widget>[],
-      double animationDuration = 300, // Default animation duration
-      bool barrierDismissible = true, // Default barrier dismissible value
-    }) {
+  BuildContext context, {
+  AnimationType animation = AnimationType.none,
+  String? title,
+  Widget? icon,
+  String? content,
+  List<Widget> actions = const <Widget>[],
+  double animationDuration = 300, // Default animation duration
+  bool barrierDismissible = true, // Default barrier dismissible value
+}) {
   Widget alertDialog = WebkulAlertDialog(
     actions: actions,
     title: title,
@@ -67,7 +67,6 @@ void mobikulAlertBox(
     showGeneralDialog(
       barrierLabel: "Label",
       barrierDismissible: barrierDismissible,
-      barrierColor: Colors.black.withOpacity(0.5),
       transitionDuration: Duration(milliseconds: animationDuration.toInt()),
       context: context,
       pageBuilder: (context, anim1, anim2) => alertDialog,
