@@ -26,6 +26,19 @@ dependencies:
 ```dart
 import 'package:webkul_alert_box/flutter_webkul_alert_box.dart';
 ```
+## Properties
+
+| Property               | Type                 | Default                | Description                                                                                  |
+|------------------------|----------------------|------------------------|----------------------------------------------------------------------------------------------|
+| `context`              | `BuildContext`      | `Required`             | The current `BuildContext`, required to display the alert box.                               |
+| `animation`            | `AnimationType`     | `AnimationType.none`   | The animation style used for displaying the alert box. Options include `none`, `dropFromTop`, `dropFromBottom`, `slideFromRight`, `slideFromLeft`, and more. |
+| `title`                | `String?`           | `""`                 | The title text displayed in the alert box.                                                  |
+| `icon`                 | `Widget?`           | `""`                 | An optional icon displayed at the top of the alert box.                                      |
+| `content`              | `String?`           | `""`                 | The message or content displayed in the alert box.                                           |
+| `actions`              | `List<Widget>`      | `const <Widget>[]`     | A list of action widgets (e.g., buttons) displayed at the bottom of the alert box.           |
+| `animationDuration`    | `double`            | `300`                  | The duration of the animation in milliseconds.                                              |
+| `barrierDismissible`   | `bool`              | `true`                 | Whether the alert box can be dismissed by tapping outside its boundaries.                   |
+
 # Show an Alert Box with no animation:
 ```dart
 MobikulAlertBox(
